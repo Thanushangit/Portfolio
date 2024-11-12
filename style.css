@@ -221,18 +221,7 @@ body {
   box-shadow: 0 0 15px #ffeb3b;
 }
 
-.image_div {
-  min-width: 200px;
-  min-height: 200px;
-  width: 58%;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  margin-left: 50px;
-  border: 2px solid blue;
-}
+
 
 img {
   width: 60%;
@@ -286,7 +275,7 @@ img {
     flex-direction: column-reverse;
   }
 
-  .image_div {
+img{
     margin-left: 0;
   }
 
