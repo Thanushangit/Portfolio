@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+   <div class="slider" id="slider">
+      <a href="#" onclick="sliderhide()" id="slider_a">Home</a>
+      <a href="#" onclick="sliderhide()" id="slider_a">About</a>
+      <a href="#" onclick="sliderhide()" id="slider_a">Skill</a>
+      <a href="#" onclick="sliderhide()" id="slider_a">Portfolio</a>
+      <a href="#" onclick="sliderhide()" id="slider_a">Contact</a>
+   </div>
+   <header class="header" id="header">
+      <a href="#" class="logo"> portfolia</a>
+      <nav class="navbar">
+         <a href="#" class="active">Home</a>
+         <a href="#">About</a>
+         <a href="#">Skill</a>
+         <a href="#">Portfolio</a>
+         <a href="#">Contact</a>
+      </nav>
+      <button class="menu-button" onclick="slider()"><span class="menu-icon"><i
+               class='bx bx-menu bx-flip-horizontal'></i></span></button>
+   </header>
+   <section class="home">
+      <div class="home-content">
+         <h3>Hello, It's Me</h3>
+         <h1>Sinnarasa Thanushan </h1>
+         <h3>And I'm a <span class="text"></span></h3>
+         <p>I'm a Web Designer with over one year of extensive experience.
+            <br>
+            My expertise includes creating and designing websites, both front-end and back-end.
+         </p>
+         <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100079087914841" target="_blank"
+               title="Contact Facebook"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.linkedin.com/in/sinnarasa-thanushan/" target="_blank" title="Contact Linkedin"><i
+                  class='bx bxl-linkedin-square'></i></a>
+            <a href="https://wa.me/+94764867457" target="_blank" title="Contact Whatsapp"><i
+                  class='bx bxl-whatsapp'></i></a>
+            <a
+               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCKCJFLTvDdKFtlgRCFcTMClnrzVrgLkFSBwSFWBlTgnVHVCfRVngzpGLDvhkChrSgxDJcjV"><i
+                  class='bx bx-envelope' title="Send Email" target="_blank"></i></a>
+         </div>
+         <a href="files/new Official CV Final.pdf" class="btn-box" download="Sinnarasa_Thanushan_CV">Download CV</a>
+      </div>
+      <img src="thanu.png" alt="profile image" width="900px" height="900px" title="Thanushan Profile" class="image">
+      </div>
+   </section>
+   <script src="script.js"></script>
+</body>
+
+</html>
